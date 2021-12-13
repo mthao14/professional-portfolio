@@ -4,23 +4,28 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #c7ecee;
+    font-family: Georgia, serif;
+    background-color: #dff9fb;
 }
 
 header {
     padding: 10px;
-    background-color: #dff9fb;
+    background-color: #c7ecee;
     margin: 0;
     text-align: center;
-    color: black;
+}
 
+footer {
+    padding: 30px;
+    background-color: #c7ecee;
+    margin: 0;
 }
 
 header h1 {
     font-weight: bold;
     font-size: 40px;
     margin: 0;
+    color: rgb(79, 97, 179);
 }
 
 header nav {
@@ -31,6 +36,7 @@ header nav ul li a {
     padding: 15px 20px;
     font-weight: lighter;
     font-size: 25px;
+    color: rgb(79, 97, 179);
 }
 
 header nav ul {
@@ -40,24 +46,26 @@ header nav ul {
     list-style: none;
 }
 
-.hero {
-    background-image: url("../images/hero-bg2.jpg");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    background-attachment: fixed;
-    background-position: 10%;
-}
-
 .center {
-    display: block;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
 }
 
+#about-me {
+    color: rgb(79, 97, 179);
+}
+
+.my-bio {
+    padding: 25px;
+    display: inline-block;
+}
+
+h2 ul li:hover  {
+
+}
+
+@media only screen and (max-width: 768px)
 
 
 
