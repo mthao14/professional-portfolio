@@ -13,8 +13,7 @@
 
 <!-- header -->
 <body>
-    <div>
-    <header>
+<header class="header">
     <h1>
     Mai Thao
     </h1>
@@ -35,43 +34,51 @@
     </nav>
 </header>
 
+<div class="page-body">
 <!-- about me section-->
-<section id="about-me">
-<div class="img-circular">
-<img src="./assets/images/MaiThao.JPG" alt="Mai Thao smiling" />
-</div>
-<div class="about-me">
+<section id="me-section">
+<div class="row">
+    <div class="small-6 small-centered columns">
+    <img src="./assets/images/MaiThao.JPG" alt="Mai Thao smiling" />
+    </div>
+    <div class="small-6 large-centered columns">
     <h2>About Me</h2>
-</div>
-<div class="my-bio">
     <p>Hi, my name is Mai Thao. I live in Milwaukee. I currently work in the finance industry as a Retirement Representative but I am learning how to code right now. I’ve always been interested in coding and making apps.  During my free time, I like to try new restaurants, read, and spend time with loved ones. 
     </p>
+    </div>
 </div>
 </section>
 
 <!-- my work section -->
     <section id="my-work">
     <h2>My Work</h2>
-        <ul>
+        <ul style="list-style-type:none">
             <li>
                 <a href="https://mthao14.github.io/run-buddy/">
-                    <img alt="Runny Buddy" src="./assets/images/run-buddy.png"></a>
+                    <img alt="Runny Buddy" src="./assets/images/run-buddy.png" class="projectimg">
+                </a>
+                <p>Front end project. Project uses hmtl and css to structure and style the page.</p>
             </li>
 
             <li>
-                <a href="">Item B</a>
-            </li>
-
-            <li>
-                <a href="">Item C</a>
+                <a href="https://mthao14.github.io/Brewber/">
+                    <img alt="BrewberEats" src="./assets/images/brewbereats.png" class="projectimg">
+                </a>
+                <p>Front end project that I worked with my classmates. Project uses third party API and CSS and Bulma Framework</p>
             </li>
         </ul>
     </section>
+
+
+
 <!-- how to contact me section -->
+
 <h2>Let's Connect</h2>
 <p>You can contact me at</p>
-<p>P: 414.331.8357</p>
+<p>P: 414.555.5555</p>
 <p>E: mthao.mt1@gmail.com</p>
+
+</div>
 
 <!-- footer -->
 <footer>

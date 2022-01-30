@@ -4,15 +4,12 @@
     font-family: 'Raleway', sans-serif;
 }
 
-body {
-    
-}
-
-.content {
-    width: 500px;
+.page-body {
+    width: 700px;
     margin-left: auto;
     margin-right: auto;
 }
+
 
 header {
     padding: 10px;
@@ -54,7 +51,15 @@ header nav ul {
     list-style: none;
 }
 
-.img {
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+img {
     width: 200px;
     height: 200px;
     background-image: url('./assets/images/MaiThao.JPG');
@@ -70,8 +75,12 @@ header nav ul {
     display: inline-block;
 }
 
-h2 ul li:hover  {
-
+.projectimg {
+    width: 350px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 @media only screen and (max-width: 768px)
